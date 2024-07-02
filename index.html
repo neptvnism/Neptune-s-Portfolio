@@ -9,8 +9,9 @@
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <img src="welcome.png" class="hud" alt="Welcome to my portfolio">
-  <img src="wasd.png" class="wasd" alt="WASD controls image"> 
+  <img src="IMAGES/welcome.png" class="hud" alt="Welcome to my portfolio">
+  <img src="IMAGES/wasd.png" class="wasd" alt="WASD controls image"> 
+  <img src="IMAGES/mouse.png" class="mouse" alt="Mouse controls image"> 
   <a-scene>
     <!-- Sky -->
     <a-sky color="#000000" radius="30"></a-sky> 
@@ -18,9 +19,13 @@
     <!-- Stars -->
     <a-entity id="stars"></a-entity>
 
-    <!-- Wall of Images -->
-    <a-plane src="whoami.png" position="-1 1.5 -3" width="2.5" height="1.5" transparent="true"></a-plane>
-    <!-- Add more images as needed -->
+    <!-- Pentagon Images -->
+    <a-image id="start" src="IMAGES/start.png" position="0 1.6 -3" rotation="0 0 0" ></a-image>
+    <a-image id="whoami" src="IMAGES/whoami.png" position="2.85 1.6 -1.75" rotation="0 -72 0" ></a-image>
+    <a-image id="myexperience" src="IMAGES/myexperience.png" position="2.85 1.6 1.75" rotation="0 -144 0" ></a-image>
+    <a-image id="passions" src="IMAGES/passions.png" position="0 1.6 3" rotation="0 -216 0" ></a-image>
+    <a-image id="summer" src="IMAGES/summer.png" position="-2.85 1.6 1.75" rotation="0 -288 0" ></a-image>
+    <a-image id="futurework" src="IMAGES/futurework.png" position="-2.85 1.6 -1.75" rotation="0 -360 0"></a-image>
   </a-scene>
 </body>
 </html>
