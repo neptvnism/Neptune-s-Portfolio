@@ -17,13 +17,14 @@
   <img src="IMAGES/unmute.png" class="mute-unmute" id="unmuteButton" alt="Unmute button" style="display: none;">
   <audio id="backgroundMusic" src="IMAGES/enchanted.mp3" autoplay loop></audio>
   <a-scene>
-    <!-- Sky -->
+    
+    <!-- Background or "sky" -->
     <a-sky color="#000000" radius="30"></a-sky> 
 
-    <!-- Stars -->
+    <!-- Randomly generating stars -->
     <a-entity id="stars"></a-entity>
 
-    <!-- Hexagon Images -->
+    <!-- Hexagon-shape arrangement of Images around the user-->
     <a-image id="start" src="IMAGES/start.png" position="0 1.6 -5" width="3" height="2" rotation="0 0 0"></a-image>
     <a-image id="whoami" src="IMAGES/whoami.png" position="4.5 1.6 -2" width="3" height="2" rotation="0 -60 0"></a-image>
     <a-image id="myexperience" src="IMAGES/myexperience.png" position="4.5 1.6 3" width="3" height="2" rotation="0 -120 0"></a-image>
