@@ -1,26 +1,31 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
+<html>
+  <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>About Me - Nadeen!  </title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-    <div class="container">
-        <h1>Nadeen</h1>
-        <img src="https://64.media.tumblr.com/e1f17e1c54cb516a821a00f1e989f402/a76e95778303bdb5-3f/s1280x1920/3fa50a67eabb22d593ccbbff9089294b5215cf57.pnj"">
-        <h2>About Me</h2>
-        <ul>
-            <li>I am passionate about CS among many other things 💻 </li>
-            <li>I just graduated as valedictorian of my class 🎓 </li>
-            <li>I love drinking (and making) boba tea! 🧋 </li>
-            <li>I have a cat despite being allergic! 🐈‍⬛ </li>
-            <li>I love writing and reading, and I have kept a journal for 5 years! 📖 </li>
-            <li>I have a rock collection from rocks all over the world 🪨 </li>
-            <li>I'm learning how to crochet 🧶 </li>
-            <li>My favorite color is purple 🎨 </li>
-        </ul>
-    </div>
-</body>
+    <title>A-Frame Starry Sky</title>
+    <script src="https://aframe.io/releases/1.2.0/aframe.min.js"></script>
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <a-scene>
+      
+      <!-- Sky -->
+      <a-sky color="#000000" radius="30"></a-sky> <!-- Black sky -->
+
+      <!-- Stars -->
+      <a-entity id="stars"></a-entity>
+
+      <!-- 3D Text with generic font -->
+      <a-text 
+        value="Welcome to my portfolio" 
+        color="#FFFFFF" 
+        position="0 2 -5" 
+        rotation="0 0 0" 
+        width="8"
+        font="">
+      </a-text>
+      
+    </a-scene>
+  </body>
 </html>
