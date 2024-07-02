@@ -4,6 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Neptune's Portfolio</title>
+  <link rel="icon" type="image/png" href="IMAGES/favicon.png">
   <script src="https://aframe.io/releases/1.2.0/aframe.min.js"></script>
   <script src="script.js" defer></script>
   <link rel="stylesheet" href="style.css">
@@ -12,6 +13,9 @@
   <img src="IMAGES/welcome.png" class="hud" alt="Welcome to my portfolio">
   <img src="IMAGES/wasd.png" class="wasd" alt="WASD controls image"> 
   <img src="IMAGES/mouse.png" class="mouse" alt="Mouse controls image">
+  <img src="IMAGES/mute.png" class="mute-unmute" id="muteButton" alt="Mute button"> 
+  <img src="IMAGES/unmute.png" class="mute-unmute" id="unmuteButton" alt="Unmute button" style="display: none;">
+  <audio id="backgroundMusic" src="IMAGES/enchanted.mp3" autoplay loop></audio>
   <a-scene>
     <!-- Sky -->
     <a-sky color="#000000" radius="30"></a-sky> 
