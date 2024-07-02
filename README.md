@@ -26,7 +26,7 @@ This project is designed using A-Frame to create a 3D environment that allows us
   - **My Experience**: Overview of my past work and experiences.
   - **Passions**: Details about my interests and passions.
   - **Summer**: Highlights of my summer activities.
-  - **Future Work**: Insights into my future projects and ambitions.
+  - **Current Work**: Insights into what I am doing now.
 
 ## Credits
 - **A-Frame**: The framework used to build the 3D environment.
