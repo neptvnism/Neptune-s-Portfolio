@@ -6,14 +6,11 @@ document.addEventListener('DOMContentLoaded', () => {
     star.setAttribute('color', 'white');
     star.setAttribute('radius', '0.05');
 
-    // Random positions avoiding the text area
     const posX = (Math.random() - 0.5) * 50;
     const posY = (Math.random() - 0.5) * 50;
     const posZ = (Math.random() - 0.5) * 50;
 
     star.setAttribute('position', `${posX} ${posY} ${posZ}`);
-
-    // Add star to the scene
     scene.appendChild(star);
   }
 
