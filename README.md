@@ -14,7 +14,7 @@ This project is designed using A-Frame to create a 3D environment that allows us
 ## Features
 - **3D Environment**: Explore a virtual space with various sections showcasing different aspects of my portfolio.
 - **Interactive Elements**: Navigate using WASD keys and mouse controls.
-- **Royalty-Free Music**: Enjoy background music while exploring.
+- **Royalty-Free Music**: Enjoy background music while exploring, credit to cynicmusic.com!!
 - **Emoji Design**: All visual elements are crafted using emojis for a playful touch.
 
 ## Usage
