@@ -9,11 +9,11 @@ document.addEventListener('DOMContentLoaded', () => {
         console.log('Play was prevented. User interaction is required.');
     });
 
-    // Initial Visibility
+    // Initial Visibility of the buttong to mute
     unmuteButton.style.display = 'none';
     muteButton.style.display = 'inline';
 
-    // Set volume
+    // volume of music 
     backgroundMusic.volume = 0.5;
 
     // Mute Button Click
@@ -32,7 +32,7 @@ document.addEventListener('DOMContentLoaded', () => {
         unmuteButton.style.display = 'none';
     });
 
-    // Star Generation Logic
+    // Star Generation Logic for the background 
     function generateStar() {
         const star = document.createElement('a-sphere');
         star.setAttribute('color', 'white');
@@ -55,7 +55,7 @@ document.addEventListener('DOMContentLoaded', () => {
     // Call generateStars every 2 seconds
     const intervalId = setInterval(generateStars, 2000);
 
-    // Stop generating stars after 15 seconds
+    // Stop generating stars after 15 seconds (too many!)
     setTimeout(() => {
         clearInterval(intervalId);
     }, 15000);
