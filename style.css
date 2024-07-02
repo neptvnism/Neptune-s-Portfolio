@@ -18,3 +18,13 @@
   z-index: 1000; 
   background-color: transparent;
 }
+
+.mouse {
+  width: 350px; 
+  height: auto; 
+  position: fixed;
+  bottom: 10px; 
+  left: 10px;  
+  z-index: 1000; 
+  background-color: transparent;
+}
